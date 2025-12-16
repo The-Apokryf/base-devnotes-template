@@ -1,0 +1,6 @@
+{
+  "format": "\\e\\n\\t\\r\\y\\l\\o\\g\\_YYYY-MM-DD",
+  "folder": "journal-of-workflow",
+  "template": "scafoldings",
+  "autorun": true
+}

@@ -1,0 +1,35 @@
+{
+  "graph:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "G"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "Home"
+    }
+  ],
+  "window:zoom-out": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "-"
+    }
+  ],
+  "window:zoom-in": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "="
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+name: almight-writting-environment
+services:
+  notebook:
+    container_name: obsidian
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    ports:
+      - 3000:3000
+      - 3001:3001
+    volumes:
+      - ./.DRIVESET/obsidian:/config
+    shm_size: 1gb
+    restart: unless-stopped
+    image: lscr.io/linuxserver/obsidian:latest
+  releaseoffice:
+    image: docker.gitea.com/gitea:1.25.2
+    container_name: gitea
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+    restart: always
+    volumes:
+      - ./.DRIVESET/gitea:/data:rw
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "127.0.0.1:9930:3000"
+      - "127.0.0.1:9922:22"
+  translator:
+    container_name: libretranslate
+    tty: true
+    stdin_open: true
+    ports:
+      - 127.0.0.1:9950:5000
+    image: libretranslate/libretranslate
+    volumes:
+      - ./.DRIVESET/libretranslate:/home/libretranslate/.local:rw
