@@ -1,0 +1,4 @@
+[submodule "github wiki"]
+	path = .docs
+	url = https://github.com/The-Apokryf/base-devnotes-template.wiki.git
+	branch = master

@@ -11,7 +11,7 @@
     "venv",
     "toolscripts",
     "src",
-    ".DOCS",
+    ".docs",
     "Dockerfile",
     ".DRIVESET",
     "Taskfile",
