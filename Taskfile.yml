@@ -22,3 +22,7 @@ tasks:
     cmds:
       - obsidian
     dir: .
+  prepublish:
+    cmds:
+      - uv export --format pylock.toml > ./pylock.toml
+      - uv export --format requirements.txt > ./requirements.txt

@@ -1,0 +1,17 @@
+{
+    "version":[0,0,0,0],
+    "contains":[
+        {
+            "name":"gitea",
+            "description":"delegated data dir of gitea server from container declared in compose recepie inside root dir"
+        },
+        {
+            "name":"libretranslate",
+            "description":"delegated models dir of libretranslate server from container declared in compose recepie inside root dir"
+        },
+        {
+            "name":"obsidian",
+            "description":"delegated config dir of obsidian server from container declared in compose recepie inside root dir"
+        }
+    ]
+}
