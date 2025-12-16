@@ -1,0 +1,40 @@
+{
+  "name": "devnotes-template",
+  "version": "0.0.1",
+  "description": "notes of technomance helping toolkit, this pack has only partial supportant role ",
+  "keywords": [
+    "notes"
+  ],
+  "homepage": "https://github.com/The-Apokryf/base-devnotes-template#readme",
+  "bugs": {
+    "url": "https://github.com/The-Apokryf/base-devnotes-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Apokryf/base-devnotes-template.git"
+  },
+  "license": "MIT",
+  "author": "Sett Sarverott",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "task overview-notes"
+  },
+  "dependencies": {
+    "@xterm/xterm": "^5.5.0",
+    "bulma": "^1.0.4",
+    "carnival-toolbox": "^1.8.5",
+    "composerize": "^1.7.5",
+    "decomposerize": "^1.4.4",
+    "dockerode": "^4.0.9",
+    "electron": "^39.2.7",
+    "husky": "^9.1.7",
+    "isomorphic-git": "^1.36.1",
+    "marked": "^17.0.1",
+    "octokit": "^5.0.5",
+    "ollama": "^0.6.3",
+    "opentimestamps": "^0.0.0",
+    "socket.io": "^4.8.1",
+    "vite": "^7.3.0"
+  }
+}

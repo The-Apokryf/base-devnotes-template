@@ -1,0 +1,6 @@
+{
+  "startupScripts": [
+    "index.js"
+  ],
+  "disableStatusbar": false
+}
