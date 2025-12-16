@@ -9,9 +9,14 @@
   "userIgnoreFilters": [
     "pyproject.toml",
     "venv",
-    "Taskfile.yml",
     "toolscripts",
     "src",
-    ".DOCS"
+    ".DOCS",
+    "Dockerfile",
+    ".DRIVESET",
+    "Taskfile",
+    "Taskfile.yml",
+    "Taskfile.yaml",
+    "compose.yaml"
   ]
 }

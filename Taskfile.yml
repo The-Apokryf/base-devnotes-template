@@ -3,10 +3,22 @@
 version: '3'
 
 vars:
-  GREETING: Hello, World!
+  IS_VIRTUAL_CONTAINER: false
 
 tasks:
   default:
     cmds:
-      - echo "{{.GREETING}}"
+      - task open-project
+      - task 
     silent: true
+  sync-notes:
+    cmds:
+      - git fetch
+  open-project:
+    cmds:
+      - codium 
+    dir: .
+  open-notes:
+    cmds:
+      - obsidian
+    dir: .
