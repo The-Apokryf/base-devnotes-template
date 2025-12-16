@@ -72,3 +72,30 @@ let me split listin
 
 
 
+[AGENTS.md]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/AGENTS.md
+[journal-of-workflow]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/journal-of-workflow
+[README.md]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/README.md
+[scafoldings]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/scafoldings
+[visuals-of-flow]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/visuals-of-flow
+[Taskfile.yml]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/Taskfile.yml
+[pyproject.toml]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/pyproject.toml
+[package.json]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/package.json
+[compose.yaml]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/compose.yaml
+[Dockerfile]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/Dockerfile
+[handler.py]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/handler.py
+[index.js]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/index.js
+[uv.lock]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/uv.lock
+[package-lock.json]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/package-lock.json
+[requirements.txt]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/requirements.txt
+[pylock.toml]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/pylock.toml
+[.dockerignore]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.dockerignore
+[.git]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.git
+[.obsidianignore]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.obsidianignore
+[.gitmodules]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.gitmodules
+[.gitignore]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.gitignore
+[.husky]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.husky
+[.obsidian]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.obsidian
+[.python-version]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.python-version
+[node_modules]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/node_modules
+[.venv]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.venv
+[.DRIVESET]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.DRIVESET
