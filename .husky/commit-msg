@@ -1,4 +1,4 @@
 #!/bin/sh
-echo "     premess test"
+echo "     post test"
 
-echo " - post-message-addon-test - " >> COMMIT_EDITMSG 
+echo " - post-test - " >> COMMIT_EDITMSG 
