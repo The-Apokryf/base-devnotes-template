@@ -1,4 +1,4 @@
 #!/bin/sh
 echo "     premess test"
 
-echo " - pre-test - " >> COMMIT_EDITMSG 
+echo " - pre-test - " >> .git/COMMIT_EDITMSG 
