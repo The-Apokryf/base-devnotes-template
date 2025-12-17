@@ -47,6 +47,7 @@ tasks:
       - git add .
       - git commit -m "quick assertion of routine procedures before new version"
       - sh toolscripts/prepublication-routines.sh
+      - sh toolscripts/version-shifter.sh
   postpublish:
     cmds:
       - gh repo view --web
