@@ -2,32 +2,46 @@
 
 version: '3'
 
+
 vars:
   IS_VIRTUAL_CONTAINER: false
 
 tasks:
+  playground:
+    cmds:
+      - uv run python -m notebook
+  publicurl:
+    cmds:
+      - gh repo view --json url | python3 toolscripts/py-shell-pipe-json.py url
+  publicname:
+    cmds:
+      - gh repo view --json name | python3 toolscripts/py-shell-pipe-json.py name
   default:
     cmds:
       - task open-project
-      - task 
+      - task open-notes
     silent: true
   sync-notes:
     cmds:
       - git fetch
   open-project:
     cmds:
-      - codium 
+      - codium .
     dir: .
   open-notes:
     cmds:
-      - obsidian
+      - obsidian .
     dir: .
+  preadmit:
+    cmds:
+      - uv run ruff check
   rdddat:
     cmds:
       - sh toolscripts/rdddat-document-printer.sh > ./.docs/rdddat.md
     silent: false
   prepublish:
     cmds:
+      - sh toolscripts/wiki-home-print.sh > ./.docs/Home.md
       - task rdddat
       - sh toolscripts/submodule-upgrading.sh
       - git add .
@@ -36,6 +50,6 @@ tasks:
   postpublish:
     cmds:
       - gh repo view --web
-      
+
 
       

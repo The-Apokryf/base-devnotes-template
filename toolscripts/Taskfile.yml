@@ -1,0 +1,11 @@
+
+version: 3
+
+tasks:
+  test-asciiarts:
+    cmds:
+      - uvx textual-pyfiglet
+
+  default:
+    cmds:
+      - task: test-asciiarts

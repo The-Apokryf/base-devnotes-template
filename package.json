@@ -1,6 +1,6 @@
 {
   "name": "devnotes-template",
-  "version": "0.1.0",
+  "version": "0.1.0.0",
   "description": "notes of technomance helping toolkit, this pack has only partial supportant role ",
   "keywords": [
     "notes"
@@ -15,12 +15,13 @@
   },
   "license": "MIT",
   "author": "Sett Sarverott",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "index.mjs",
   "scripts": {
     "test": "task overview-notes"
   },
   "dependencies": {
+    "@biomejs/biome": "^2.3.9",
     "@xterm/xterm": "^5.5.0",
     "bulma": "^1.0.4",
     "carnival-toolbox": "^1.8.5",
