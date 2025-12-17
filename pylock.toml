@@ -2112,6 +2112,13 @@ sdist = { url = "https://files.pythonhosted.org/packages/72/a8/5f7c805dd6d0d6cba
 wheels = [{ url = "https://files.pythonhosted.org/packages/cd/fa/1ef2f8537272a2f383d72b9301c3ef66a49710b3bb7dcb2bd138cf2920d1/python_socketio-5.15.0-py3-none-any.whl", upload-time = 2025-11-22T18:50:19Z, size = 79451, hashes = { sha256 = "e93363102f4da6d8e7a8872bf4908b866c40f070e716aa27132891e643e2687c" } }]
 
 [[packages]]
+name = "pytoml"
+version = "0.1.21"
+index = "https://pypi.org/simple"
+sdist = { url = "https://files.pythonhosted.org/packages/f4/ba/98ee2054a2d7b8bebd367d442e089489250b6dc2aee558b000e961467212/pytoml-0.1.21.tar.gz", upload-time = 2019-07-21T17:58:13Z, size = 8783, hashes = { sha256 = "8eecf7c8d0adcff3b375b09fe403407aa9b645c499e5ab8cac670ac4a35f61e7" } }
+wheels = [{ url = "https://files.pythonhosted.org/packages/a5/47/c7f8a0f210ad18576840922e0b504f0b7f5f73aea4a52ab14c5b58517edf/pytoml-0.1.21-py2.py3-none-any.whl", upload-time = 2019-07-21T17:58:12Z, size = 8537, hashes = { sha256 = "57a21e6347049f73bfb62011ff34cd72774c031b9828cb628a752225136dfc33" } }]
+
+[[packages]]
 name = "pytz"
 version = "2025.2"
 index = "https://pypi.org/simple"
