@@ -12,10 +12,10 @@ tasks:
       - uv run python -m notebook
   publicurl:
     cmds:
-      - gh repo view --json url | python3 toolscripts/py-shell-pipe-json.py url
+      - gh repo view --json url | python3 .craft/toolkit/py-shell-pipe-json.py url
   publicname:
     cmds:
-      - gh repo view --json name | python3 toolscripts/py-shell-pipe-json.py name
+      - gh repo view --json name | python3 .craft/toolkit/py-shell-pipe-json.py name
   default:
     cmds:
       - task open-project
@@ -37,17 +37,17 @@ tasks:
       - uv run ruff check
   rdddat:
     cmds:
-      - sh toolscripts/rdddat-document-printer.sh > ./.docs/rdddat.md
+      - sh .craft/toolkit/rdddat-document-printer.sh > .craft/notes/rdddat.md
     silent: false
   prepublish:
     cmds:
-      - sh toolscripts/wiki-home-print.sh > ./.docs/Home.md
+      - sh .craft/toolkit/wiki-home-print.sh > ./.docs/Home.md
       - task rdddat
-      - sh toolscripts/submodule-upgrading.sh
+      - sh .craft/toolkit/submodule-upgrading.sh
       - git add .
       - git commit -m "quick assertion of routine procedures before new version"
-      - sh toolscripts/prepublication-routines.sh
-      - sh toolscripts/version-shifter.sh
+      - sh .craft/toolkit/prepublication-routines.sh
+      - sh .craft/toolkit/version-shifter.sh
   postpublish:
     cmds:
       - gh repo view --web

@@ -10,7 +10,7 @@ services:
       - 3000:3000
       - 3001:3001
     volumes:
-      - ./.DRIVESET/obsidian:/config
+      - ./.craft/DRIVESET/obsidian:/config
     shm_size: 1gb
     restart: unless-stopped
     image: lscr.io/linuxserver/obsidian:latest
@@ -22,7 +22,7 @@ services:
       - USER_GID=1000
     restart: always
     volumes:
-      - ./.DRIVESET/gitea:/data:rw
+      - ./.craft/DRIVESET/gitea:/data:rw
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
     ports:
@@ -36,4 +36,4 @@ services:
       - 127.0.0.1:9950:5000
     image: libretranslate/libretranslate
     volumes:
-      - ./.DRIVESET/libretranslate:/home/libretranslate/.local:rw
+      - ./.craft/DRIVESET/libretranslate:/home/libretranslate/.local:rw
