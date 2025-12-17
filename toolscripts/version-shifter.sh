@@ -1,5 +1,6 @@
 #!/bin/sh
-
+echo "uv[$(uv version --short)]"
+echo "npm[$(npm version)]"
 uv version --bump minor
 npm version $(uv version --short) --force
 git add .
