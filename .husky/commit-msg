@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "     premess test"
+
+echo " - post-message-addon-test - " >> COMMIT_EDITMSG 

@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "     premess test"
+
+echo " - pre-message-test - " >> COMMIT_EDITMSG 
