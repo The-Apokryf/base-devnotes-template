@@ -1,5 +1,5 @@
 technomancer entry at
-UNIXUSAT1765966193932
+UNIXUSAT1765966272880
 by identified entity
 Sett Sarverott A.A.B.
 ```toml
@@ -12,31 +12,28 @@ here this document that
 describes full scope of state
 developed been used as resultant
 publicators commision. Current version:
-- pyproject.toml declares: < devnotes-template@0.3.0 >
-- packages.json declares: < technomantic-craftbook 0.3.0 >
+- pyproject.toml declares: < devnotes-template@0.4.0 >
+- packages.json declares: < technomantic-craftbook 0.4.0 >
 git status is as follow:
+ - -  M .craft/_rdddat.md
  - -  m .docs
- - - M  Taskfile.yml
- - -  M package-lock.json
- - -  M package.json
- - -  M pyproject.toml
- - -  M uv.lock
- - - ?? .craft/_rdddat.md
+ - - M  .husky/pre-push
 branches existing now is listed below with current branch marked by `*`:
 * master
   remotes/origin/master
 submodular git repos are included:
- -  7640871963cdf5bd84c2134228d948e91e757d1b .docs (heads/master)
+ -  0677a9832e8664c1e9f10e26530d529b9233e200 .docs (heads/master)
 their raport of composition stands as follow:
 Entering '.docs'
 - status:
  - -  M Home.md
 - logs:
- - - 7640871963cdf5bd84c2134228d948e91e757d1b	sarverott@gmail.com	4 minutes ago	full R.D.D.D.A.T. at [js_ver:devnotes-template@0.2.0&py_ver:technomantic-craftbook 0.2.0] before quick assertion
- - - a505d3032e1678a694488f6afdffcc721c77cb29	sarverott@gmail.com	40 minutes ago	full R.D.D.D.A.T. at [js_ver:devnotes-template@0.1.0&py_ver:technomantic-craftbook 0.1.0] before quick assertion
- - - 19af4e2e46ef8c27b6b7e22b6812261d3af2d42d	sarverott@gmail.com	47 minutes ago	full R.D.D.D.A.T. at [js_ver:devnotes-template@0.1.0.0&py_ver:technomantic-craftbook 0.1.0.0] before quick assertion
- - - f331e120e96b1d6fe4be054f7bfbdc1561226b09	sarverott@gmail.com	53 minutes ago	full R.D.D.D.A.T. at [js_ver:devnotes-template@0.1.0.0&py_ver:technomantic-craftbook 0.1.0.0] before quick assertion
- - - 0e6012ea52e7c1f35d7d585368f1f2c726225acd	sarverott@gmail.com	60 minutes ago	full R.D.D.D.A.T. at [js_ver:devnotes-template@0.1.0.0&py_ver:technomantic-craftbook 0.1.0.0] before quick assertion
+ - - 0677a9832e8664c1e9f10e26530d529b9233e200	sarverott@gmail.com	77 seconds ago	full R.D.D.D.A.T. at [js_ver:devnotes-template@0.3.0&py_ver:technomantic-craftbook 0.3.0] before quick assertion
+ - - 7640871963cdf5bd84c2134228d948e91e757d1b	sarverott@gmail.com	5 minutes ago	full R.D.D.D.A.T. at [js_ver:devnotes-template@0.2.0&py_ver:technomantic-craftbook 0.2.0] before quick assertion
+ - - a505d3032e1678a694488f6afdffcc721c77cb29	sarverott@gmail.com	41 minutes ago	full R.D.D.D.A.T. at [js_ver:devnotes-template@0.1.0&py_ver:technomantic-craftbook 0.1.0] before quick assertion
+ - - 19af4e2e46ef8c27b6b7e22b6812261d3af2d42d	sarverott@gmail.com	48 minutes ago	full R.D.D.D.A.T. at [js_ver:devnotes-template@0.1.0.0&py_ver:technomantic-craftbook 0.1.0.0] before quick assertion
+ - - f331e120e96b1d6fe4be054f7bfbdc1561226b09	sarverott@gmail.com	54 minutes ago	full R.D.D.D.A.T. at [js_ver:devnotes-template@0.1.0.0&py_ver:technomantic-craftbook 0.1.0.0] before quick assertion
+ - - 0e6012ea52e7c1f35d7d585368f1f2c726225acd	sarverott@gmail.com	61 minutes ago	full R.D.D.D.A.T. at [js_ver:devnotes-template@0.1.0.0&py_ver:technomantic-craftbook 0.1.0.0] before quick assertion
  - - 37d25f6f9750f743e702d08f75ea7b43c70fdf52	sarverott@gmail.com	7 hours ago	full R.D.D.D.A.T. at [js_ver:devnotes-template@0.0.1&py_ver:technomantic-craftbook 0.0.1] before quick assertion
  - - 7a92c56338a1d1411c29e09f8fd3cb24388a43fc	sarverott@gmail.com	14 hours ago	Initial Home page
  - - 2b545261898fccf4654a0e7a0e73485dc8bde318	sarverott@gmail.com	14 hours ago	Initial Home page- branches:
@@ -46,7 +43,7 @@ Entering '.docs'
 content of project dir currently is presenting like that:
 ```json
 [
-  {"type":"directory","name":".","size":433270707,"time":"UNIXUSAT1765965968000","contents":[
+  {"type":"directory","name":".","size":433238833,"time":"UNIXUSAT1765966202000","contents":[
     {"type":"file","name":"AGENTS.md","size":7596,"time":"UNIXUSAT1765927025000"},
     {"type":"file","name":"biome.json","size":494,"time":"UNIXUSAT1765946113000"},
     {"type":"file","name":"compose.yaml","size":970,"time":"UNIXUSAT1765964360000"},
@@ -9237,20 +9234,20 @@ content of project dir currently is presenting like that:
         {"type":"file","name":"README.md","size":31177,"time":"UNIXUSAT1765918702000"}
       ]}
     ]},
-    {"type":"file","name":"package.json","size":1122,"time":"UNIXUSAT1765966170000"},
-    {"type":"file","name":"package-lock.json","size":147213,"time":"UNIXUSAT1765966170000"},
-    {"type":"file","name":"pylock.toml","size":604760,"time":"UNIXUSAT1765965968000"},
-    {"type":"file","name":"pyproject.toml","size":926,"time":"UNIXUSAT1765966092000"},
+    {"type":"file","name":"package.json","size":1122,"time":"UNIXUSAT1765966199000"},
+    {"type":"file","name":"package-lock.json","size":114385,"time":"UNIXUSAT1765966202000"},
+    {"type":"file","name":"pylock.toml","size":605434,"time":"UNIXUSAT1765966202000"},
+    {"type":"file","name":"pyproject.toml","size":926,"time":"UNIXUSAT1765966199000"},
     {"type":"file","name":"README.md","size":0,"time":"UNIXUSAT1765913061000"},
-    {"type":"file","name":"requirements.txt","size":169732,"time":"UNIXUSAT1765965968000"},
+    {"type":"file","name":"requirements.txt","size":170012,"time":"UNIXUSAT1765966202000"},
     {"type":"directory","name":"scafoldings","size":0,"time":"UNIXUSAT1765912994000"},
     {"type":"file","name":"start.py","size":100,"time":"UNIXUSAT1765919074000"},
     {"type":"file","name":"Taskfile.yml","size":1216,"time":"UNIXUSAT1765966032000"},
-    {"type":"file","name":"uv.lock","size":621996,"time":"UNIXUSAT1765966093000"},
+    {"type":"file","name":"uv.lock","size":621996,"time":"UNIXUSAT1765966199000"},
     {"type":"directory","name":"visuals-of-flow","size":0,"time":"UNIXUSAT1765913032000"}
   ]}
 ,
-  {"type":"report","size":1822450746,"directories":1065,"files":7081}
+  {"type":"report","size":1822418872,"directories":1065,"files":7081}
 ]
 ```
 at now status of task declaration looks like that:
@@ -9405,31 +9402,37 @@ at now status of task declaration looks like that:
 }
 ```
 until now records of git story:
- - 2b1af306c1f4f1c46749898a2bb8bcc2e8a8aa50	sarverott@gmail.com	4 minutes ago	uv export to basic requirements python file at publish of new vesion on now at UNIXUSAT1765965968770  with now pointing UNIXUSAT1765965968822
- - a986c6a645bff6b86981df3d9db9ce3e27e39e31	sarverott@gmail.com	4 minutes ago	uv export to pylock at publish of new vesion on now at UNIXUSAT1765965968607  with now pointing UNIXUSAT1765965968657
- - f525ef0a45b575f3145295ba29c5f73a83b20c19	sarverott@gmail.com	4 minutes ago	0.3.0  with now pointing UNIXUSAT1765965964242
- - 7cf5b12e6b81bef3a8bfca189c720246c5b9b7e9	sarverott@gmail.com	4 minutes ago	version shifts! current GRIH taging points on 0.3.0  with now pointing UNIXUSAT1765965964382
- - a60e1d090c47a22113df1c909b160312abe933d2	sarverott@gmail.com	4 minutes ago	quick assertion of routine procedures before new version  with now pointing UNIXUSAT1765965963705
- - d12b4004958278cce75f00b5534d4d588bc0a305	sarverott@gmail.com	5 minutes ago	splitting scripts into routines, tools in toolkit and procedures  with now pointing UNIXUSAT1765965905546
- - 3429e08d051dbc6b0b35a866a71a37c699ce66f2	sarverott@gmail.com	27 minutes ago	moving stuff to craft dir  with now pointing UNIXUSAT1765964587614
- - dfc2850881dbe169625a436ce2190b28a6531d10	sarverott@gmail.com	40 minutes ago	0.2.0  with now pointing UNIXUSAT1765963789752
- - 50895ef7a5132dac2ae385f537c68070ee97937e	sarverott@gmail.com	40 minutes ago	version shifts! current GRIH taging points on 0.2.0  with now pointing UNIXUSAT1765963789866
- - dd8b633e7a1e789b2def5fa102b7d068bc797e3b	sarverott@gmail.com	40 minutes ago	npm package refresh with fixes including locking procedure at publish of new vesion  on now at UNIXUSAT1765963789121  with now pointing UNIXUSAT1765963789184
- - c35ae33f98c1b9e6970c27e6da1bc3077b4bf4e6	sarverott@gmail.com	40 minutes ago	quick assertion of routine procedures before new version  with now pointing UNIXUSAT1765963786701
- - 1c7fbb3d1fa90312648b355637c3295d5e9c43c7	sarverott@gmail.com	41 minutes ago	fixing state errors  with now pointing UNIXUSAT1765963758280
- - bcfe9519a02eeb9df190cfa11e0520dbe2cb757c	sarverott@gmail.com	47 minutes ago	version shifts! current GRIH taging points on 0.2.0.0  with now pointing UNIXUSAT1765963372908
- - f018ebef226bee9dc986bff7cc2231e1c08d993f	sarverott@gmail.com	47 minutes ago	npm package refresh with fixes including locking procedure at publish of new vesion  on now at UNIXUSAT1765963372116  with now pointing UNIXUSAT1765963372163
- - 4351da15584bc9c9eb5c72b5ce82878698e21899	sarverott@gmail.com	47 minutes ago	uv export to basic requirements python file at publish of new vesion on now at UNIXUSAT1765963368134  with now pointing UNIXUSAT1765963368180
- - 9becf643cde53ff324bd145e7d1ccdb5361d0bf8	sarverott@gmail.com	47 minutes ago	uv export to pylock at publish of new vesion on now at UNIXUSAT1765963367988  with now pointing UNIXUSAT1765963368037
- - 162f1416ba885fc972382c7402a357ba0e0633fc	sarverott@gmail.com	47 minutes ago	quick assertion of routine procedures before new version  with now pointing UNIXUSAT1765963367766
- - 0813b2d010385fbc715e2c045db6b251f59183ae	sarverott@gmail.com	48 minutes ago	refreshing locks and remaking preparations  with now pointing UNIXUSAT1765963313516
- - 327245eba428dde85580c470d35a3d00f00e0212	sarverott@gmail.com	53 minutes ago	quick assertion of routine procedures before new version  with now pointing UNIXUSAT1765963035239
- - eef9d5b83c7b533d040b06411f957141e5d18b83	sarverott@gmail.com	53 minutes ago	fixing prepublication routines  with now pointing UNIXUSAT1765963000750
- - 59f7c362cdc18397cc72b2a3d7810467214ad853	sarverott@gmail.com	60 minutes ago	uv export to basic requirements python file at publish of new vesion on now at UNIXUSAT1765962616331  with now pointing UNIXUSAT1765962616382
- - 7a2a50e99179d080fa8cf7c8cd4fbc93ecda1120	sarverott@gmail.com	60 minutes ago	uv export to pylock at publish of new vesion on now at UNIXUSAT1765962616177  with now pointing UNIXUSAT1765962616227
- - 7c22889b2df86a51e262c524880f831efe5e43f8	sarverott@gmail.com	60 minutes ago	quick assertion of routine procedures before new version  with now pointing UNIXUSAT1765962615902
- - 645e857b59dd54bef839a7e68ab33f508c18455b	sarverott@gmail.com	60 minutes ago	updating husky scripts  with now pointing UNIXUSAT1765962571979
- - 7ee42f7c44639ab78a46d1c8a751a702a5a70d76	sarverott@gmail.com	62 minutes ago	initializing biome, moving index.js and handler.py  with now pointing UNIXUSAT1765962481512
+ - 4b1e0ff7c3c2f36828ad1181a51e9edcf3f03d95	sarverott@gmail.com	71 seconds ago	uv export to basic requirements python file at publish of new vesion on now at UNIXUSAT1765966202990  with now pointing UNIXUSAT1765966203058
+ - 0a112106d8276af4a473cdc1d19e03abe5d74576	sarverott@gmail.com	72 seconds ago	uv export to pylock at publish of new vesion on now at UNIXUSAT1765966202768  with now pointing UNIXUSAT1765966202843
+ - 1ffaefc97437ab33a1d84e5ec775bb704527d1ee	sarverott@gmail.com	72 seconds ago	npm package refresh with fixes including locking procedure at publish of new vesion  on now at UNIXUSAT1765966202417  with now pointing UNIXUSAT1765966202487
+ - 7a1b69e6769bb3beaf0cc55c76da3a5d8022e0df	sarverott@gmail.com	75 seconds ago	0.4.0  with now pointing UNIXUSAT1765966199611
+ - d23bcc5cd22b6a6f6a3d9358847ba8c8bf90161b	sarverott@gmail.com	75 seconds ago	version shifts! current GRIH taging points on 0.4.0  with now pointing UNIXUSAT1765966199729
+ - 731ca1a2fdb65ebc31986caed940a5fc3446cff4	sarverott@gmail.com	75 seconds ago	quick assertion of routine procedures before new version  with now pointing UNIXUSAT1765966199068
+ - 2b1af306c1f4f1c46749898a2bb8bcc2e8a8aa50	sarverott@gmail.com	5 minutes ago	uv export to basic requirements python file at publish of new vesion on now at UNIXUSAT1765965968770  with now pointing UNIXUSAT1765965968822
+ - a986c6a645bff6b86981df3d9db9ce3e27e39e31	sarverott@gmail.com	5 minutes ago	uv export to pylock at publish of new vesion on now at UNIXUSAT1765965968607  with now pointing UNIXUSAT1765965968657
+ - f525ef0a45b575f3145295ba29c5f73a83b20c19	sarverott@gmail.com	5 minutes ago	0.3.0  with now pointing UNIXUSAT1765965964242
+ - 7cf5b12e6b81bef3a8bfca189c720246c5b9b7e9	sarverott@gmail.com	5 minutes ago	version shifts! current GRIH taging points on 0.3.0  with now pointing UNIXUSAT1765965964382
+ - a60e1d090c47a22113df1c909b160312abe933d2	sarverott@gmail.com	5 minutes ago	quick assertion of routine procedures before new version  with now pointing UNIXUSAT1765965963705
+ - d12b4004958278cce75f00b5534d4d588bc0a305	sarverott@gmail.com	6 minutes ago	splitting scripts into routines, tools in toolkit and procedures  with now pointing UNIXUSAT1765965905546
+ - 3429e08d051dbc6b0b35a866a71a37c699ce66f2	sarverott@gmail.com	28 minutes ago	moving stuff to craft dir  with now pointing UNIXUSAT1765964587614
+ - dfc2850881dbe169625a436ce2190b28a6531d10	sarverott@gmail.com	41 minutes ago	0.2.0  with now pointing UNIXUSAT1765963789752
+ - 50895ef7a5132dac2ae385f537c68070ee97937e	sarverott@gmail.com	41 minutes ago	version shifts! current GRIH taging points on 0.2.0  with now pointing UNIXUSAT1765963789866
+ - dd8b633e7a1e789b2def5fa102b7d068bc797e3b	sarverott@gmail.com	41 minutes ago	npm package refresh with fixes including locking procedure at publish of new vesion  on now at UNIXUSAT1765963789121  with now pointing UNIXUSAT1765963789184
+ - c35ae33f98c1b9e6970c27e6da1bc3077b4bf4e6	sarverott@gmail.com	41 minutes ago	quick assertion of routine procedures before new version  with now pointing UNIXUSAT1765963786701
+ - 1c7fbb3d1fa90312648b355637c3295d5e9c43c7	sarverott@gmail.com	42 minutes ago	fixing state errors  with now pointing UNIXUSAT1765963758280
+ - bcfe9519a02eeb9df190cfa11e0520dbe2cb757c	sarverott@gmail.com	48 minutes ago	version shifts! current GRIH taging points on 0.2.0.0  with now pointing UNIXUSAT1765963372908
+ - f018ebef226bee9dc986bff7cc2231e1c08d993f	sarverott@gmail.com	48 minutes ago	npm package refresh with fixes including locking procedure at publish of new vesion  on now at UNIXUSAT1765963372116  with now pointing UNIXUSAT1765963372163
+ - 4351da15584bc9c9eb5c72b5ce82878698e21899	sarverott@gmail.com	48 minutes ago	uv export to basic requirements python file at publish of new vesion on now at UNIXUSAT1765963368134  with now pointing UNIXUSAT1765963368180
+ - 9becf643cde53ff324bd145e7d1ccdb5361d0bf8	sarverott@gmail.com	48 minutes ago	uv export to pylock at publish of new vesion on now at UNIXUSAT1765963367988  with now pointing UNIXUSAT1765963368037
+ - 162f1416ba885fc972382c7402a357ba0e0633fc	sarverott@gmail.com	48 minutes ago	quick assertion of routine procedures before new version  with now pointing UNIXUSAT1765963367766
+ - 0813b2d010385fbc715e2c045db6b251f59183ae	sarverott@gmail.com	49 minutes ago	refreshing locks and remaking preparations  with now pointing UNIXUSAT1765963313516
+ - 327245eba428dde85580c470d35a3d00f00e0212	sarverott@gmail.com	54 minutes ago	quick assertion of routine procedures before new version  with now pointing UNIXUSAT1765963035239
+ - eef9d5b83c7b533d040b06411f957141e5d18b83	sarverott@gmail.com	55 minutes ago	fixing prepublication routines  with now pointing UNIXUSAT1765963000750
+ - 59f7c362cdc18397cc72b2a3d7810467214ad853	sarverott@gmail.com	61 minutes ago	uv export to basic requirements python file at publish of new vesion on now at UNIXUSAT1765962616331  with now pointing UNIXUSAT1765962616382
+ - 7a2a50e99179d080fa8cf7c8cd4fbc93ecda1120	sarverott@gmail.com	61 minutes ago	uv export to pylock at publish of new vesion on now at UNIXUSAT1765962616177  with now pointing UNIXUSAT1765962616227
+ - 7c22889b2df86a51e262c524880f831efe5e43f8	sarverott@gmail.com	61 minutes ago	quick assertion of routine procedures before new version  with now pointing UNIXUSAT1765962615902
+ - 645e857b59dd54bef839a7e68ab33f508c18455b	sarverott@gmail.com	62 minutes ago	updating husky scripts  with now pointing UNIXUSAT1765962571979
+ - 7ee42f7c44639ab78a46d1c8a751a702a5a70d76	sarverott@gmail.com	63 minutes ago	initializing biome, moving index.js and handler.py  with now pointing UNIXUSAT1765962481512
  - 52a28129de09751485d6bfa47ea89f65684891df	sarverott@gmail.com	5 hours ago	wiki-generator preparements  - pre-test -  - post-test -
  - 4ccb574f3f3462755b292f0c86f44d7d1691a3f3	sarverott@gmail.com	6 hours ago	last test of commit edition flow  - pre-test -  - post-test -
  - 2a4a54035735db5921abe31c62457db8b1a185ea	sarverott@gmail.com	6 hours ago	one more test
@@ -9445,14 +9448,14 @@ until now records of git story:
  - 444e4775d49d066d715d1622c97e562dc4ac7b95	sarverott@gmail.com	11 hours ago	adding references to point the mentionations files inside online repository
  - 4665dd257bf7b5f620df55941e3259dc52bf015e	sarverott@gmail.com	11 hours ago	adding guidelines and insights for digital entities on encounter this repository
  - 8f115208a29fa19838a8a5fb614b88cec695ae4e	sarverott@gmail.com	13 hours ago	seeting plugins configs, preparing automation, making viewport more clear while fresh glance
- - c033756b43ac254098ff185203f8a889d8bfbfcd	sarverott@gmail.com	13 hours ago	adding gitwiki
+ - c033756b43ac254098ff185203f8a889d8bfbfcd	sarverott@gmail.com	14 hours ago	adding gitwiki
  - 76aa382182e6fe3e02f67ab02544f2c5579575c7	sarverott@gmail.com	14 hours ago	turn off sync and publish core plugins
  - 7cb8a74158679d95f30012d9ba81af3bb002b5cb	sarverott@gmail.com	14 hours ago	excluding workspace records from git attention
  - 197c5c46747fa03b13d3f4ae78fde93b01fae52e	sarverott@gmail.com	14 hours ago	adding next customisations
  - c5efa6cf106a3dc7fe8e2bbec5ea07d821207da3	sarverott@gmail.com	14 hours ago	CRAFTSET :: bash git python,node,GitBook,GitHubPages,c,cmake,c++,rust,composer,laravel #  [UNIXUSAT=1765915631443]
  - b9d802f1ef6b741ce97508b33e2d2ea0977b2252	sarverott@gmail.com	14 hours ago	first committhe current npm dependential chain by npm is show here:
 ```sh
-devnotes-template@0.3.0 /home/sarverott/__WORKSHOP/forge/inceptorium-apokryf/the-prime-directive
+devnotes-template@0.4.0 /home/sarverott/__WORKSHOP/forge/inceptorium-apokryf/the-prime-directive
 ├─┬ @biomejs/biome@2.3.9
 │ ├── @biomejs/cli-darwin-arm64@2.3.9
 │ ├── @biomejs/cli-darwin-x64@2.3.9
@@ -9939,7 +9942,7 @@ devnotes-template@0.3.0 /home/sarverott/__WORKSHOP/forge/inceptorium-apokryf/the
 ```
 ### current pip dependential chain by uv is show here:
 ```sh
-technomantic-craftbook v0.3.0
+technomantic-craftbook v0.4.0
 ├── beautifulsoup4 v4.14.3
 │   ├── soupsieve v2.8
 │   └── typing-extensions v4.15.0
@@ -10337,7 +10340,7 @@ further changes can be monitored at pointed url location
 {"url":"https://github.com/The-Apokryf/base-devnotes-template"}
 ```
 at least now where we have pointed current now pointer on
-UNIXUSAT1765966196475
+UNIXUSAT1765966275439
 > warm greetings and good luck charm from me behind
 > wall that closing the past out of time known
 > as present across the time to the future wanderers

@@ -1,3 +1,5 @@
 #!/bin/sh
 
 task prepublish
+
+return 0
