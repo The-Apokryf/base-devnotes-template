@@ -1,0 +1,57 @@
+
+echo "technomancer entry at" 
+node -e "console.log('UNIXUSAT'+Date.now())" 
+echo "by identified entity"
+git config user.name
+echo "\`\`\`toml"
+gh repo view | sed '/^$/d' 
+echo "\`\`\`"
+echo "# RAW DEVELOPEMENT DATA DUMPING ASSERTION TESTIMONY" 
+echo "here this document that" 
+echo "describes full scope of state" 
+echo "developed been used as resultant" 
+echo "publicators commision. Current version:" 
+echo "- pyproject.toml declares: < $(npm ls | grep $PWD | sed 's/\s.*$//') >" 
+echo "- packages.json declares: < $(uv version) >" 
+echo "git status is as follow:"
+git status -s | ts " - -"
+echo "branches existing now is listed below with current branch marked by \`*\`:"
+git branch --list -a
+echo "submodular git repos are included:"
+git submodule | ts " -"
+echo "their raport of composition stands as follow:"
+git submodule foreach 'echo "- status:" && git status -s | ts " - -" && echo "- logs:" && git log --all --format=oneline --pretty=format:"%H%x09%ae%x09%ad%x09%s" --date=relative | ts " - -" && echo "- branches:" && git branch -a -l | ts " - -" '
+echo "content of project dir currently is presenting like that:"
+echo "\`\`\`json"
+tree -J -s --timefmt UNIXUSAT%s000 --du  
+echo "\`\`\`"
+echo "at now status of task declaration looks like that:"
+echo "\`\`\`json"
+task --json --list-all
+echo "\`\`\`"
+echo "until now records of git story:"
+git log --all --format=oneline --pretty=format:"%H%x09%ae%x09%ad%x09%s" --date=relative | ts " -" 
+echo "the current npm dependential chain by npm is show here:"
+echo "\`\`\`sh"
+npm ls -a
+echo "\`\`\`"
+echo "### current pip dependential chain by uv is show here:"
+echo "\`\`\`sh"
+uv tree
+echo "\`\`\`"
+echo "further changes can be monitored at pointed url location"
+echo "\`\`\`json"
+gh repo view --json url
+echo "\`\`\`"
+echo "at least now where we have pointed current now pointer on"
+node -e "console.log('UNIXUSAT'+Date.now())"
+echo "> warm greetings and good luck charm from me behind" 
+echo "> wall that closing the past out of time known"
+echo "> as present across the time to the future wanderers"
+echo "> traversing the void on the"
+echo "> path of technomancy - I cross my fingers"
+echo "> for your good fortune from my now pointer"
+echo "> location to your pointer now address is"
+echo "> shown and I will still cross my fingers"
+echo "> until our prime directive is yet not reached"
+echo "# Omnis Moriatur"

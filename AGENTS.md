@@ -20,7 +20,7 @@ let me split listin
 - _[Taskfile.yml][Taskfile.yml]_ - wraps all defined tasks around the root object of project and any else stuff inside this craftbook
 
 ### toolkit armory management 
-
+- _[src][src]_
 - _[pyproject.toml][pyproject.toml]_ - management of supportant python toolkiting
 - _[package.json][package.json]_ - management of supportant javascript toolkiting
 - _[compose.yaml][compose.yaml]_ - compact autonomical selfhosting orchestration recepie
@@ -54,11 +54,11 @@ let me split listin
 
 ---
 
+## 
 
+---
 
-
-
-## more referal linkings
+##### more referal linkings
 - https://hub.docker.com/r/libretranslate/libretranslate
 - https://hub.docker.com/r/linuxserver/obsidian
 - https://www.composerize.com/
@@ -71,12 +71,30 @@ let me split listin
 - https://socket.io/docs/v2/
 
 
+---
 
+# _`| Inceptorium Apokryf @ 2025 |`_
+> https://apokryf.pl/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[src]: https://api.github.com/repos/The-Apokryf/base-devnotes-template/contents/src/
 [AGENTS.md]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/AGENTS.md
-[journal-of-workflow]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/journal-of-workflow
+[journal-of-workflow]: https://api.github.com/repos/The-Apokryf/base-devnotes-template/contents/journal-of-workflow
 [README.md]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/README.md
-[scafoldings]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/scafoldings
-[visuals-of-flow]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/visuals-of-flow
+[scafoldings]: https://api.github.com/repos/The-Apokryf/base-devnotes-template/contents/scafoldings
+[visuals-of-flow]: https://api.github.com/repos/The-Apokryf/base-devnotes-template/contents/visuals-of-flow
 [Taskfile.yml]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/Taskfile.yml
 [pyproject.toml]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/pyproject.toml
 [package.json]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/package.json
@@ -89,13 +107,13 @@ let me split listin
 [requirements.txt]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/requirements.txt
 [pylock.toml]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/pylock.toml
 [.dockerignore]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.dockerignore
-[.git]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.git
+[.git]: https://api.github.com/repos/The-Apokryf/base-devnotes-template
 [.obsidianignore]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.obsidianignore
 [.gitmodules]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.gitmodules
 [.gitignore]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.gitignore
-[.husky]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.husky
-[.obsidian]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.obsidian
+[.husky]: https://api.github.com/repos/The-Apokryf/base-devnotes-template/contents/.husky
+[.obsidian]: https://api.github.com/repos/The-Apokryf/base-devnotes-template/contents/.obsidian
 [.python-version]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.python-version
-[node_modules]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/node_modules
-[.venv]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.venv
-[.DRIVESET]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/.DRIVESET
+[node_modules]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/package-lock.json
+[.venv]: https://raw.githubusercontent.com/The-Apokryf/base-devnotes-template/refs/heads/master/uv.lock
+[.DRIVESET]: https://api.github.com/repos/The-Apokryf/base-devnotes-template/contents/.DRIVESET

@@ -22,7 +22,20 @@ tasks:
     cmds:
       - obsidian
     dir: .
+  rdddat:
+    cmds:
+      - sh toolscripts/rdddat-document-printer.sh > ./.docs/rdddat.md
+    silent: false
   prepublish:
     cmds:
-      - uv export --format pylock.toml > ./pylock.toml
-      - uv export --format requirements.txt > ./requirements.txt
+      - task rdddat
+      - sh toolscripts/submodule-upgrading.sh
+      - git add .
+      - git commit -m "quick assertion of routine procedures before new version"
+      - sh toolscripts/prepublication-routines.sh
+  postpublish:
+    cmds:
+      - gh repo view --web
+      
+
+      
