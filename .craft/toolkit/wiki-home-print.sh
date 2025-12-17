@@ -5,7 +5,7 @@
 echo "> _Inceptorium Apokryf @ $( date +%Y )_"
 echo "# wiki almanac about [$(uv version)][link-to-project] "
 
-NAMEREPO="$(gh repo view --json name | python3 toolscripts/py-shell-pipe-json.py name)"
+NAMEREPO="$(gh repo view --json name | python3 .craft/toolkit/py-shell-pipe-json.py name)"
 
 # fonts[0]="ansi_regular"
 # fonts[1]="alligator3"
@@ -40,9 +40,10 @@ NAMEREPO="$(gh repo view --json name | python3 toolscripts/py-shell-pipe-json.py
 
 echo "\`\`\`"
 # uvx rich-pyfiglet "${fonts[$font_choice]}" --font small
-uvx rich-pyfiglet "$NAMEREPO" --font 4max
+uvx rich-pyfiglet "$NAMEREPO" --font small
 echo "\`\`\`"
 
+echo "> $(gh repo view --json description | python3 .craft/toolkit/py-shell-pipe-json.py description)"
 
 echo "\`\`\`"
 uvx pycowsay "$(curl https://api.github.com/zen)"
@@ -51,4 +52,4 @@ echo "\`\`\`"
 
 
 
-echo "[link-to-project]: $(gh repo view --json url | python3 toolscripts/py-shell-pipe-json.py url)"
+echo "[link-to-project]: $(gh repo view --json url | python3 .craft/toolkit/py-shell-pipe-json.py url)"

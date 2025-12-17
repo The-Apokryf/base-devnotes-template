@@ -43,11 +43,12 @@ tasks:
     cmds:
       - sh .craft/toolkit/wiki-home-print.sh > ./.docs/Home.md
       - task rdddat
-      - sh .craft/toolkit/submodule-upgrading.sh
+      - sh .craft/routines/submodule-upgrading.sh
       - git add .
       - git commit -m "quick assertion of routine procedures before new version"
-      - sh .craft/toolkit/prepublication-routines.sh
-      - sh .craft/toolkit/version-shifter.sh
+      #- sh .craft/toolkit/prepublication-routines.sh
+      - sh .craft/procedures/version-shifter.sh
+      - sh .craft/routines/prepublication.sh
   postpublish:
     cmds:
       - gh repo view --web

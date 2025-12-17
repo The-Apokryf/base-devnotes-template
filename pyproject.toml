@@ -12,6 +12,7 @@ dependencies = [
     "marimo>=0.18.4",
     "marko>=2.2.1",
     "matplotlib>=3.10.8",
+    "miniwdl>=1.13.1",
     "notebook>=7.5.1",
     "ollama>=0.6.1",
     "openai>=2.13.0",
