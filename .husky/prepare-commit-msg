@@ -1,4 +1,4 @@
 #!/bin/sh
 echo "     premess test"
 
-echo " - pre-test - " >> .git/COMMIT_EDITMSG 
+echo " with now pointing UNIXUSAT$(node -e 'console.log(Date.now())') " >> .git/COMMIT_EDITMSG 

@@ -1,4 +1,4 @@
 #!/bin/sh
 echo "     post test"
 
-echo " - post-test - " >> .git/COMMIT_EDITMSG 
+#echo " - post-test - " >> .git/COMMIT_EDITMSG 
